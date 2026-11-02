@@ -14,4 +14,5 @@ Using UnityEngine;
     controller = GetComponent<CharacterController>();
     controller.height = standingHeight;
     controller.center = Vector3.up * (standingHeight / 2f);
+}
   
